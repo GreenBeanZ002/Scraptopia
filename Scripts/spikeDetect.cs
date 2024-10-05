@@ -5,6 +5,7 @@ using UnityEngine;
 public class spikeDetect : MonoBehaviour
 {
     public float cooldownTimer = 0.5f;
+    public int scaleFactor = 1;
     bool detectedPlayer;
     bool movedOnce = false;
 
@@ -28,8 +29,8 @@ public class spikeDetect : MonoBehaviour
                 cooldownTimer = 0.5f;
                 detectedPlayer = false;
                 if(movedOnce == false)
-                {
-                    transform.Translate(0, 1.5f, 0);
+                {                  
+                    transform.Translate(0, 1.5f * scaleFactor, 0);
                 }
                 movedOnce = true;
             }
