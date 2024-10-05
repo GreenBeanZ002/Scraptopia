@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class spikeDetect : MonoBehaviour
 {
-    public float cooldownTimer = 1f;
+    public float cooldownTimer = 0.5f;
     bool detectedPlayer;
     bool movedOnce = false;
 
@@ -25,7 +25,7 @@ public class spikeDetect : MonoBehaviour
             if (cooldownTimer <= 0)
             {
                 Debug.Log("Spikes Raised");
-                cooldownTimer = 3;
+                cooldownTimer = 0.5f;
                 detectedPlayer = false;
                 if(movedOnce == false)
                 {
