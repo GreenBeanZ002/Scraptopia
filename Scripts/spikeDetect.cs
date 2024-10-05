@@ -29,7 +29,7 @@ public class spikeDetect : MonoBehaviour
                 detectedPlayer = false;
                 if(movedOnce == false)
                 {
-                    transform.Translate(0, 1, 0);
+                    transform.Translate(0, 1.5f, 0);
                 }
                 movedOnce = true;
             }
