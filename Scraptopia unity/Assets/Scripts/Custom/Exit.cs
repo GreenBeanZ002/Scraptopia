@@ -7,6 +7,7 @@ using TMPro;
 public class Exit : MonoBehaviour
 {
 	public TMP_Text txt;
+	public TMP_Text promptTxt;
 	public hitstore hitSt;
 	public Timer timer;
 	public Canvas canvas;
@@ -38,6 +39,7 @@ public class Exit : MonoBehaviour
             {
 				Score = 0;
             }
+			pickExitPopup(hits);
 			txt.text = $"Score : {Mathf.Round(Score)}";
 		}
 
@@ -56,5 +58,28 @@ public class Exit : MonoBehaviour
     {
 		SceneManager.LoadScene(0);
 		Time.timeScale = 1;
+	}
+
+	private void pickExitPopup(float hitCount)
+	{
+		switch (hitCount)
+		{
+			case 0:
+				promptTxt.text = "Perfect! can you beat the next level?";
+				return;
+			case 1:
+				promptTxt.text = "Almost perfect! Try again!";
+				return;
+			case 2:
+				promptTxt.text = "Only hit twice! See if you can beat your score!";
+				return;
+			case 3:
+				promptTxt.text = "Good effort! Now aim higher!";
+				return;
+			default:
+				promptTxt.text = "Keep practising - you can do better! Try again to get a higher score!"; 
+				return;//Improve your score next time! Click Play again for another try
+		}
+
 	}
 }

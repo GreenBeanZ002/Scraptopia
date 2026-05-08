@@ -14,6 +14,7 @@ public class Mover : MonoBehaviour
 	private int originalSpeed;
 	const float yValue = 0f;
 	public int levelSelect;
+	public bool reversed = false;
 
 	void Start()
 	{
@@ -35,30 +36,52 @@ public class Mover : MonoBehaviour
 		Debug.Log("Try not to hit the obstacles, they'll give Roger a shock!");
 	}
 
-	//Moves the player according to moveSpeed
-	void MovePlayer()
+	public void reverseMovement()
 	{
-		float xValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-		float zValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-		transform.Translate(xValue, yValue, zValue);
-		if (Input.GetAxis("Vertical") <0 && Input.GetAxis("Horizontal") == 0)
-        {
-			//Look Down
-        }
-		if(Input.GetAxis("Vertical") > 0 && Input.GetAxis("Horizontal") == 0)
-        {
-			//Look Up
+		if (reversed)
+		{
+			reversed = false;
 		}
-		if(Input.GetAxis("Vertical") == 0 && Input.GetAxis("Horizontal") < 0)
-        {
-			//Look Right
+		else
+		{
+			reversed = true;
 		}
-		if(Input.GetAxis("Vertical") == 0 && Input.GetAxis("Horizontal") > 0)
-        {
-			//Look Left
-		}
-		//Might need to do 8 directions rather than 4
 	}
+
+			//Moves the player according to moveSpeed
+	void MovePlayer()
+			{
+			if (reversed) 
+			{
+                float xValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+                float zValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+                transform.Translate(-xValue, yValue, -zValue);
+            }
+            if (!reversed)
+            {
+                float xValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+                float zValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+                transform.Translate(xValue, yValue, zValue);
+            }
+
+            if (Input.GetAxis("Vertical") < 0 && Input.GetAxis("Horizontal") == 0)
+				{
+					//Look Down
+				}
+				if (Input.GetAxis("Vertical") > 0 && Input.GetAxis("Horizontal") == 0)
+				{
+					//Look Up
+				}
+				if (Input.GetAxis("Vertical") == 0 && Input.GetAxis("Horizontal") < 0)
+				{
+					//Look Right
+				}
+				if (Input.GetAxis("Vertical") == 0 && Input.GetAxis("Horizontal") > 0)
+				{
+					//Look Left
+				}
+				//Might need to do 8 directions rather than 4
+			}
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
