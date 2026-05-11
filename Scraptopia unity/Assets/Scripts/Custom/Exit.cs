@@ -16,6 +16,7 @@ public class Exit : MonoBehaviour
 	float time;
 	public float hits;
 	[SerializeField] int levelSelect;
+    [SerializeField] int levelSelectPrompt;
     private void Start()
     {
 		canvas.GetComponent<Canvas>().enabled = false; 
@@ -65,8 +66,17 @@ public class Exit : MonoBehaviour
 		switch (hitCount)
 		{
 			case 0:
-				promptTxt.text = "Perfect! can you beat the next level?";
-				return;
+				if (levelSelectPrompt == 7)
+				{
+					promptTxt.text = "Perfect! Congratulations for beating the game!";
+					return;
+				}
+				else
+				{
+                    promptTxt.text = "Perfect! can you beat the next level?";
+                    return;
+                }
+					
 			case 1:
 				promptTxt.text = "Almost perfect! Try again!";
 				return;

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62D4FA4C-E467-6E56-6B1E-B0C883B6968E}|Assembly-CSharp.csproj|d:\\github\\dash\\scraptopia\\scraptopia unity\\assets\\scripts\\custom\\detectplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4FA4C-E467-6E56-6B1E-B0C883B6968E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\custom\\detectplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62D4FA4C-E467-6E56-6B1E-B0C883B6968E}|Assembly-CSharp.csproj|d:\\github\\dash\\scraptopia\\scraptopia unity\\assets\\scripts\\preexisting\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D4FA4C-E467-6E56-6B1E-B0C883B6968E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\preexisting\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "detectPlayer.cs",
+              "DocumentMoniker": "D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Assets\\Scripts\\Custom\\detectPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Custom\\detectPlayer.cs",
+              "ToolTip": "D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Assets\\Scripts\\Custom\\detectPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Custom\\detectPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T17:02:13.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Mover.cs",
               "DocumentMoniker": "D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Assets\\Scripts\\Preexisting\\Mover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Preexisting\\Mover.cs",
               "ToolTip": "D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Assets\\Scripts\\Preexisting\\Mover.cs",
               "RelativeToolTip": "Assets\\Scripts\\Preexisting\\Mover.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowDAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T15:47:48.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ObjectHit.cs",
               "DocumentMoniker": "D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Assets\\Scripts\\Preexisting\\ObjectHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Preexisting\\ObjectHit.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Exit.cs",
               "DocumentMoniker": "D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Assets\\Scripts\\Custom\\Exit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Custom\\Exit.cs",

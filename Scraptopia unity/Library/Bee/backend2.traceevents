@@ -1,91 +1,330 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1778348894684741, "dur":92869, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1778348894777621, "dur":46321, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1778348894823970, "dur":468, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1778348894824736, "dur":140, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_0C482E5E4CA76547.mvfrm" }}
-,{ "pid":12345, "tid":0, "ts":1778348894824881, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_CB4B0ABE32571B9F.mvfrm" }}
-,{ "pid":12345, "tid":0, "ts":1778348894825636, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_B86B487E38665F4C.mvfrm" }}
-,{ "pid":12345, "tid":0, "ts":1778348894825724, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_E68170C7E86CF00F.mvfrm" }}
-,{ "pid":12345, "tid":0, "ts":1778348894825909, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_D2EAED5B5548B84E.mvfrm" }}
-,{ "pid":12345, "tid":0, "ts":1778348894826811, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_092B3D6633BAB121.mvfrm" }}
-,{ "pid":12345, "tid":0, "ts":1778348894827195, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" }}
-,{ "pid":12345, "tid":0, "ts":1778348894824470, "dur":2908, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1778348894827380, "dur":1015537, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1778348895842919, "dur":187, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1778348895844430, "dur":4507, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1778348894824780, "dur":2639, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1778348894827424, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.dll_E2E5ACCA281CA0E2.mvfrm" }}
-,{ "pid":12345, "tid":1, "ts":1778348894827638, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1778348894827637, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_FA1718BF6E735250.mvfrm" }}
-,{ "pid":12345, "tid":1, "ts":1778348894827935, "dur":300, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_B86B487E38665F4C.mvfrm" }}
-,{ "pid":12345, "tid":1, "ts":1778348894828236, "dur":489, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1778348894828726, "dur":1014222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1778348894824894, "dur":2545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1778348894827464, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.DeviceSimulatorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1778348894827445, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_AF6972972FCC20EE.mvfrm" }}
-,{ "pid":12345, "tid":2, "ts":1778348894827671, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1778348894827735, "dur":111, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_FAE0552FFF5B76DE.mvfrm" }}
-,{ "pid":12345, "tid":2, "ts":1778348894828167, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.EditorToolbarModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1778348894828166, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_BE5E0AE3C5E47CFE.mvfrm" }}
-,{ "pid":12345, "tid":2, "ts":1778348894828358, "dur":1014564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1778348894825035, "dur":2605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1778348894827644, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_EDA89E626FF6E543.mvfrm" }}
-,{ "pid":12345, "tid":3, "ts":1778348894827723, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_EDA89E626FF6E543.mvfrm" }}
-,{ "pid":12345, "tid":3, "ts":1778348894827935, "dur":287, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_078DBB708F7EDC3B.mvfrm" }}
-,{ "pid":12345, "tid":3, "ts":1778348894829167, "dur":445, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" }}
-,{ "pid":12345, "tid":3, "ts":1778348894829613, "dur":1013327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1778348894824752, "dur":2638, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1778348894827396, "dur":827, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1778348894828854, "dur":424, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp" }}
-,{ "pid":12345, "tid":4, "ts":1778348894829367, "dur":10892, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.dll.mvfrm.rsp" }}
-,{ "pid":12345, "tid":4, "ts":1778348894829282, "dur":10978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm" }}
-,{ "pid":12345, "tid":4, "ts":1778348894840407, "dur":134067, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm" }}
-,{ "pid":12345, "tid":4, "ts":1778348894974738, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.rsp" }}
-,{ "pid":12345, "tid":4, "ts":1778348894974493, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)" }}
-,{ "pid":12345, "tid":4, "ts":1778348894975173, "dur":866185, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)" }}
-,{ "pid":12345, "tid":5, "ts":1778348894824784, "dur":2646, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1778348894827436, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_60414D53F99D67BC.mvfrm" }}
-,{ "pid":12345, "tid":5, "ts":1778348894827720, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_CBF97806349B34EA.mvfrm" }}
-,{ "pid":12345, "tid":5, "ts":1778348894828153, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1778348894828236, "dur":276, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1778348894828513, "dur":1014429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1778348894824765, "dur":2637, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1778348894827421, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_0C2F677411A619A6.mvfrm" }}
-,{ "pid":12345, "tid":6, "ts":1778348894827666, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1778348894827756, "dur":443, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_846DCBFC45292EE3.mvfrm" }}
-,{ "pid":12345, "tid":6, "ts":1778348894828200, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1778348894828461, "dur":1014460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1778348894824907, "dur":2541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1778348894827617, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1778348894827707, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_EF08B9B1D12E9DC5.mvfrm" }}
-,{ "pid":12345, "tid":7, "ts":1778348894827936, "dur":306, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_C07F1C714CCCCEF8.mvfrm" }}
-,{ "pid":12345, "tid":7, "ts":1778348894828243, "dur":470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1778348894828714, "dur":1014245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1778348894824956, "dur":2534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1778348894827744, "dur":531, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_B7E1900490265BB4.mvfrm" }}
-,{ "pid":12345, "tid":8, "ts":1778348894828277, "dur":336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1778348894828613, "dur":1014301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1778348894824987, "dur":2612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1778348894827676, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1778348894827675, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_EEE97FADB7C86B70.mvfrm" }}
-,{ "pid":12345, "tid":9, "ts":1778348894827756, "dur":454, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_EEE97FADB7C86B70.mvfrm" }}
-,{ "pid":12345, "tid":9, "ts":1778348894828267, "dur":249, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1778348894828517, "dur":1014401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1778348894825022, "dur":2610, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1778348894827668, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1778348894827730, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_B9619E9C245FB2A6.mvfrm" }}
-,{ "pid":12345, "tid":10, "ts":1778348894828157, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.PresetsUIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1778348894828156, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_7325BA23DC474418.mvfrm" }}
-,{ "pid":12345, "tid":10, "ts":1778348894828269, "dur":460, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1778348894828730, "dur":1014224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1778348894825083, "dur":2612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1778348894827752, "dur":215, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_E7BAB8703F950B93.mvfrm" }}
-,{ "pid":12345, "tid":11, "ts":1778348894828155, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1778348894828229, "dur":337, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1778348894828567, "dur":1014349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1778348894825159, "dur":2557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1778348894828160, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.GraphViewModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1778348894828159, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_B7BF8141D9EEEC13.mvfrm" }}
-,{ "pid":12345, "tid":12, "ts":1778348894828408, "dur":1014512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1778348895851005, "dur":600, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1778513580383660, "dur":21209, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778513580404947, "dur":494, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778513580405682, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level3.resS" }}
+,{ "pid":12345, "tid":0, "ts":1778513580406086, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1778513580406193, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1778513580405470, "dur":3548, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778513580409020, "dur":2038228, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778513582447249, "dur":187, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778513582447667, "dur":1319, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1778513580405575, "dur":3452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1778513580409031, "dur":2811, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1778513580411863, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1778513580412906, "dur":405, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1778513580413315, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1778513580413501, "dur":7250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1778513580420753, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1778513580421047, "dur":315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580421451, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580421598, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580421785, "dur":380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580422166, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580422512, "dur":279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Github\\Dash\\Scraptopia\\Scraptopia unity\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580422791, "dur":370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580423162, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580423416, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580423686, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580423866, "dur":774, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580424640, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580424758, "dur":1550, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580426309, "dur":447, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580426757, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580426926, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580427041, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580427206, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580427368, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580427532, "dur":593, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580428126, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580428400, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580428611, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580428725, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580428896, "dur":2658, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580431556, "dur":2715, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580434273, "dur":3478, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580437753, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playera5da6cc0-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1778513580437979, "dur":97259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580535239, "dur":24203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580559444, "dur":327515, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580886964, "dur":714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580887680, "dur":331, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580888012, "dur":705, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":1, "ts":1778513580888718, "dur":403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580889122, "dur":117861, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581006986, "dur":47287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581054275, "dur":182030, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581236307, "dur":132033, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581368342, "dur":858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581369201, "dur":822, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581370024, "dur":608, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581370633, "dur":18004, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581388639, "dur":479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581389120, "dur":1108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":1, "ts":1778513581390229, "dur":118395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581508626, "dur":29695, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581538323, "dur":371, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581538696, "dur":784, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581539481, "dur":351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581539833, "dur":7410, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":1, "ts":1778513581547245, "dur":199335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581746581, "dur":45826, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581792409, "dur":133696, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513581926108, "dur":105290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513582031400, "dur":39037, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513582070439, "dur":65590, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513582136030, "dur":18189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513582154221, "dur":3816, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513582158039, "dur":366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513582158407, "dur":490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513582158899, "dur":155887, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":1, "ts":1778513580413314, "dur":1901474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1778513582314884, "dur":129629, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1778513582445725, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1778513582445724, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1778513582445978, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1778513580405595, "dur":3439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1778513580409039, "dur":479, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1778513580409518, "dur":2353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1778513580411883, "dur":91528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1778513580411871, "dur":91542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1778513580503434, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1778513580506077, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580511190, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580513869, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580517420, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580518736, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580521629, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580523255, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580524856, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580527369, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580529501, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580530945, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580532929, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580534206, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580535508, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580537671, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580540742, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580542352, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580545352, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580547214, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580549452, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580550623, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580551695, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580552912, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580555795, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580558209, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580560555, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580563105, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580565473, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580567623, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580569662, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580574155, "dur":5103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580579305, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580582756, "dur":8697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580591508, "dur":5994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580597583, "dur":7429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580605061, "dur":4817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580609934, "dur":5504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580615482, "dur":13464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1778513580629001, "dur":9683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1778513580638875, "dur":4534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level6.resS" }}
+,{ "pid":12345, "tid":2, "ts":1778513580643458, "dur":6640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1778513580650138, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1778513580654968, "dur":1792274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1778513580405655, "dur":3399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1778513580409058, "dur":323, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1778513580409382, "dur":2478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1778513580411865, "dur":51714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1778513580463615, "dur":23632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1778513580487272, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1778513580488036, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1778513580489523, "dur":205856, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1778513580489521, "dur":205861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1778513580700175, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1778513580703022, "dur":1744231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778513580405639, "dur":3405, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778513580409050, "dur":329, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778513580409379, "dur":2480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778513580411860, "dur":51788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1778513580463671, "dur":17278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1778513580480969, "dur":21970, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1778513580480967, "dur":21974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1778513580502966, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1778513580504502, "dur":47897, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1778513580504501, "dur":47900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course.exe" }}
+,{ "pid":12345, "tid":4, "ts":1778513580552464, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course.exe" }}
+,{ "pid":12345, "tid":4, "ts":1778513580554412, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580556346, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580558489, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580560544, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580562998, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580564996, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580567101, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580569428, "dur":10725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580580190, "dur":11156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580591446, "dur":6729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580598251, "dur":9362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580607662, "dur":5573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580613329, "dur":6155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1778513580619556, "dur":1182, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778513580620746, "dur":6838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1778513580627629, "dur":10260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1778513580637938, "dur":3963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1778513580641942, "dur":7119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1778513580649159, "dur":4739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1778513580653916, "dur":1793328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580405681, "dur":3381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580409068, "dur":464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580409532, "dur":2335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580411868, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1778513580420796, "dur":151691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1778513580572566, "dur":5382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1778513580577987, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1778513580580830, "dur":11575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1778513580598149, "dur":95, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580592438, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1778513580598522, "dur":7385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1778513580605986, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1778513580618255, "dur":99, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580611475, "dur":6897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1778513580618415, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1778513580625694, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580619910, "dur":5882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1778513580633790, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778513580625900, "dur":7968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1778513580633987, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1778513580636040, "dur":6087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1778513580642163, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1778513580647389, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1778513580653529, "dur":1793717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1778513580405748, "dur":3325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1778513580409077, "dur":333, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1778513580409410, "dur":2453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1778513580411864, "dur":43706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1778513580455604, "dur":25137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1778513580481699, "dur":5338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1778513580487082, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1778513580488425, "dur":8636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1778513580497082, "dur":195528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1778513580497081, "dur":195531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1778513580693903, "dur":12570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1778513580706494, "dur":1740755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1778513580405819, "dur":3263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1778513580409087, "dur":306, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1778513580409394, "dur":2475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1778513580411871, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1778513580414977, "dur":65535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1778513580480546, "dur":103950, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1778513580480543, "dur":103955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1778513580584528, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1778513580586050, "dur":5932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1778513580592069, "dur":5000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1778513580597114, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1778513580600901, "dur":7009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1778513580607954, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1778513580613073, "dur":14419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1778513580627545, "dur":8303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1778513580636008, "dur":8358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1778513580644520, "dur":8439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1778513580652993, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1778513580655471, "dur":1791779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1778513580405849, "dur":3246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1778513580409101, "dur":294, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1778513580409395, "dur":2467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1778513580411874, "dur":91538, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1778513580411863, "dur":91550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1778513580503431, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1778513580505518, "dur":54387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1778513580559951, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580562654, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580564937, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580566847, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580569139, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580573690, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580577118, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580579813, "dur":5589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580585447, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580591841, "dur":5261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580597141, "dur":4481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580601664, "dur":6144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580607843, "dur":4927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580619504, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1778513580612817, "dur":6784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1778513580619635, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1778513580622664, "dur":7118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1778513580629923, "dur":10243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1778513580640235, "dur":5265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1778513580645534, "dur":6622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1778513580652213, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1778513580655182, "dur":1792063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1778513580405871, "dur":3287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1778513580409163, "dur":388, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1778513580409552, "dur":2304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1778513580411881, "dur":69601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1778513580411861, "dur":69623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1778513580482617, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1778513580483897, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1778513580487052, "dur":97569, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1778513580487049, "dur":97573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1778513580584641, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1778513580587670, "dur":5559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1778513580593272, "dur":5824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1778513580599181, "dur":6178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1778513580605397, "dur":4701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1778513580610131, "dur":6592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1778513580616795, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":9, "ts":1778513580619538, "dur":74, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1778513580619635, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":9, "ts":1778513580621928, "dur":4342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1778513580626361, "dur":13961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1778513580640359, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1778513580644731, "dur":7000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1778513580651983, "dur":5582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1778513580657592, "dur":1789672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778513580405907, "dur":3259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778513580409171, "dur":139, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778513580409310, "dur":2555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778513580411876, "dur":175495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1778513580411869, "dur":175504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1778513580590616, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778513580587410, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1778513580590895, "dur":723, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778513580591623, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1778513580597909, "dur":7597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1778513580605555, "dur":4416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1778513580610006, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1778513580615483, "dur":554694, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1778513580615482, "dur":554697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1778513581170204, "dur":22880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1778513581193109, "dur":1254157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778513580405948, "dur":3238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778513580409186, "dur":2664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778513580412791, "dur":382, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1778513580413561, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1778513580416017, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1778513580416554, "dur":64119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1778513580480695, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1778513580480825, "dur":90547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1778513580571461, "dur":7825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1778513580579339, "dur":11752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1778513580591140, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1778513580596209, "dur":4613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1778513580609050, "dur":172, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778513580600910, "dur":8330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1778513580609322, "dur":5855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1778513580615229, "dur":13056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1778513580636197, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778513580628320, "dur":7962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1778513580636316, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level7.resS" }}
+,{ "pid":12345, "tid":11, "ts":1778513580640654, "dur":6042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level5" }}
+,{ "pid":12345, "tid":11, "ts":1778513580653499, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778513580646744, "dur":6821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/Obstacle Course_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1778513580653644, "dur":1793624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1778513580405972, "dur":3221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1778513580409194, "dur":2658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1778513580411879, "dur":420672, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1778513580411859, "dur":420695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Charlie/Downloads/Scraptopia Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1778513580832580, "dur":3755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Charlie/Downloads/Scraptopia Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1778513580836362, "dur":1610903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778513582450789, "dur":1511, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
